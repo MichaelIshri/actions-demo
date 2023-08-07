@@ -1,0 +1,12 @@
+name: Team Demo
+run-name: ${{ github.actor }} is testing out GitHub Actions for the team 🚀
+on: [push]
+jobs:
+  Step1-Checkout-Repo:
+    runs-on: redhat
+    steps:
+      - run: echo "Testing Github Actions"
+  Step2-Pull-Dependencies:
+    runs-on: ubuntu-latest
+    steps:
+      - run: echo "Testing Github Actions"
