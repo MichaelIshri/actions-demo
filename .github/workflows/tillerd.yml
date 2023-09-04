@@ -9,7 +9,7 @@ jobs:
     steps:
       - name: Hello world action step
         id: hello
-        uses: Z30Tiller/Actions-Playground@v2
+        uses: Z30Tiller/Actions-Playground@v3
         with:
           who-to-greet: 'D-man'
       # Use the output from the `hello` step
